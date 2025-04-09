@@ -10,7 +10,7 @@
 
 / {
   behaviors {
-    tp_lalt_ret: tap_preferred {
+    tp_lalt_ret: tap_preferred_v1 {
       compatible = "zmk,behavior-hold-tap";
       label = "TP_LALT_RET";
       flavor = "tap-preferred";
@@ -19,7 +19,7 @@
       bindings = <&kp LALT>, <&kp RET>;
     };
 
-    tp_hyper_spc: tap_preferred {
+    tp_hyper_spc: tap_preferred_v2 {
       compatible = "zmk,behavior-hold-tap";
       label = "TP_HYPER_SPC";
       flavor = "tap-preferred";
