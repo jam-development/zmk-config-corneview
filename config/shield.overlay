@@ -1,6 +1,22 @@
-#include <dt-bindings/zmk/display.h>
+/ {
+  compatible = "zmk,shield";
+};
 
 &display {
   compatible = "zmk,nice-view";
-  label = "nice_view";
+
+  layer_status {
+    compatible = "zmk,widget_layer_status";
+    status = "okay";
+  };
+
+  battery_status {
+    compatible = "zmk,widget_battery_status";
+    status = "okay";
+  };
+
+  ble_status {
+    compatible = "zmk,widget_ble_status";
+    status = "okay";
+  };
 };
