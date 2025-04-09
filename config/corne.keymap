@@ -1,5 +1,4 @@
 /*
-
  * Layers:
  * 0 - Base QWERTY
  * 1 - macOS Mod Layer
@@ -44,10 +43,16 @@
 
         symbols_layer {
             bindings = <
-                &kp EXCL   &kp AT   &kp HASH &kp DLLR &kp PRCNT &kp CARET   &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-                &kp LCMD   &kp LBKT &kp RBKT &kp LCBR &kp RCBR &kp BSLH     &kp MINUS &kp EQUAL &kp PIPE &kp UNDER &kp PLUS &kp TILDE
-                &kp LSHFT  &kp LT   &kp GT   &kp COLON &kp DQT  &kp SQT     &kp QUESTION &kp SEMI &kp DOT &kp COMMA &kp FSLH &kp GRAVE
-                                &kp LGUI   &trans     &kp SPACE           &kp RET   &trans   &trans
+                &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT &kp CARET
+                &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC  &kp GRAVE
+
+                &kp LCMD   &kp LBKT   &kp RBKT  &kp LCBR  &kp RCBR  &kp BSLH
+                &kp MINUS  &kp EQUAL  &kp PIPE  &kp UNDER &kp PLUS  &kp TILDE
+
+                &kp LSHFT  &kp LT     &kp GT    &kp SEMI  &kp QUOT  &kp DQUO
+                &kp SLASH  &kp COLON  &kp DOT   &kp COMMA &kp FSLH  &kp ESC
+
+                             &kp LGUI &trans    &kp SPACE &kp RET   &trans   &trans
             >;
         };
     };
