@@ -1,0 +1,6 @@
+#include <dt-bindings/zmk/display.h>
+
+&display {
+  compatible = "zmk,nice-view";
+  label = "nice_view";
+};
